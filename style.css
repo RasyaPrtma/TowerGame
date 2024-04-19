@@ -1,13 +1,15 @@
-body{
+body {
     background: black;
 }
 
-#canvas1{
+#canvas1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 900px;
     height: 600px;
-    background: white;
+    background: url('castle\ bridge.png');
+    background-size:cover;
+    background-position: center;
 }
