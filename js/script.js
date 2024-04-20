@@ -83,7 +83,7 @@ function handleGameGrid() {
 
 // projectiles
 const projectil1 = new Image();
-projectil1.src = 'Projectile_1.png';
+projectil1.src = './img/Projectile_1.png';
 class Projectile {
     constructor(x, y) {
         this.x = x;
@@ -135,9 +135,9 @@ function handleProjectiles() {
 
 // defenders
 const defender1 = new Image();
-defender1.src = 'plant.png';
+defender1.src = './img/plant.png';
 const defender2 = new Image();
-defender2.src = 'plant2.png';
+defender2.src = './img/plant2.png';
 class Defender {
     constructor(x, y) {
         this.x = x;
@@ -305,10 +305,10 @@ function handleFloatingMessages() {
 // enemies
 const enemyTypes = [];
 const enemy1 = new Image();
-enemy1.src = 'Monster1.png';
+enemy1.src = './img/Monster1.png';
 enemyTypes.push(enemy1);
 const enemy2 = new Image();
-enemy2.src = 'Monster2.png';
+enemy2.src = './img/Monster2.png';
 enemyTypes.push(enemy2);
 
 class Enemy {

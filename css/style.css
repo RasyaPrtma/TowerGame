@@ -9,7 +9,7 @@ body {
     transform: translate(-50%, -50%);
     width: 900px;
     height: 600px;
-    background: url('castle\ bridge.png');
+    background: url('../img/castel_bridge.png');
     background-size:cover;
     background-position: center;
 }
